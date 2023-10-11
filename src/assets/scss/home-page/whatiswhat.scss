@@ -1,0 +1,507 @@
+.whatiswhat{
+    background: linear-gradient(180deg, #CF7329 0%, #B2773A 100%);
+    padding-top: 75px;
+    padding-bottom: 120px;
+    .container{
+        position: relative;
+    }
+    &__title{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        text-align: center;
+        font-family: Luckiest Guy;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        & span{
+            color: #633725;
+        }
+    }
+    &-items{
+        margin-top: 100px;
+        display: flex;
+        padding-left: 100px;
+        gap: 100px;
+        position: relative;
+        &__col{
+            &:nth-child(2){
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 114px;
+                & img{
+                    height: 192px;
+                }
+            }
+        }
+    }
+    &__item{
+        max-width: 975px;
+        min-height: 189px;
+        border-radius: 20px;
+        margin-top: 70px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, #EDA446 100%);
+
+        & p{
+            color: #633725;
+            font-family: Luckiest Guy;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-left: 150px;
+            & span{
+                color: #B46325;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-family: Luckiest Guy;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    &__subitem{
+        margin-top: 13px;
+        margin-bottom: 12px;
+        & p{
+            color: #754018;
+            // text-align: center;
+            padding-left: 20px;
+            font-family: Luckiest Guy;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+        }
+    }
+    .bnb-item{
+        position: relative;
+        padding: 20px 150px;
+        margin-bottom: 70px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        & .bnb-icon{
+            position: absolute;
+            right: -10%;
+            top: 50%;
+            transform: translate(0,-50%);
+        }
+    }
+
+    & .diamond-item {
+        position: absolute;
+        left: 85%;
+        bottom: 100%;
+        top: 2%;
+        & .diamond{
+            width: 158px;
+        }
+    } 
+
+    & .diamond-item-two {
+        position: absolute;
+        left: 75%;
+        bottom: 100%;
+        top: 40%;
+        & .diamondtwo {
+            width: 116px;
+        }
+    } 
+
+    & .gold-big{
+        width: 267px;
+        position: absolute;
+        left: 43px;
+        bottom: -10%;
+        z-index: 1;    
+        & .gold{
+            width: 100%;
+        }
+        & .star{
+            &:nth-child(1){
+                width: 37px;
+                top: -5px;
+                left: 72px;
+            }
+            &:nth-child(2){
+                width: 26px;
+                top: 71px;
+                left: 167px;
+            }
+            &:nth-child(3){
+                width: 37px;
+                top: 122px;
+                left: 131px;
+            }
+        }
+    }
+    & .gold-mini{
+        width: 35%;
+        position: absolute;
+        top: 80%;
+        right: -8px;
+        z-index: 0;
+        & .gold{
+            width: 100%;
+        }
+        & .star{
+            &:nth-child(1){
+                width: 49px;
+                top: -54px;
+                left: 123px;
+            }
+            &:nth-child(2){
+                width: 17px;
+                top: 1px;
+                left: 231px;
+            }
+            &:nth-child(3){
+                width: 49px;
+                top: 190px;
+                left: 96px;
+            }
+        }
+    }
+    &__item__img {
+        width: 195px;
+        height: 255px;
+        border-radius: 50px;
+        border: 3px solid #FFF;
+        background: linear-gradient(180deg, #DD8E39 0%, rgba(167, 86, 31, 0.25) );
+        z-index: 1;
+        position: absolute;
+        top: -35px;
+        left: -80px;
+        & img {
+            width: 196.884px;
+            height: 228.087px;
+        }
+
+    }
+    & .miner {
+        position: absolute;
+        left: -10px;
+    }
+
+}
+
+@media (max-width:991px){
+.whatiswhat{
+    background: linear-gradient(180deg, #CF7329 0%, #B2773A 100%);
+    padding-top: 75px;
+    padding-bottom: 120px;
+    .container{
+        position: relative;
+    }
+    &__title{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        text-align: center;
+        font-family: Luckiest Guy;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        & span{
+            color: #633725;
+        }
+    }
+    &-items{
+        margin-top: 100px;
+        display: flex;
+        padding-left: 100px;
+        gap: 100px;
+        position: relative;
+        &__col{
+            &:nth-child(2){
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 114px;
+                & img{
+                    height: 192px;
+                }
+            }
+        }
+    }
+    &__item{
+        max-width: 675px;
+        min-height: 89px;
+        border-radius: 20px;
+        margin-top: 70px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, #EDA446 100%);
+
+        & p{
+            color: #633725;
+            font-family: Luckiest Guy;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-left: 50px;
+            & span{
+                color: #B46325;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-family: Luckiest Guy;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    &__subitem{
+        margin-top: 13px;
+        margin-bottom: 12px;
+        & p{
+            color: #754018;
+            // text-align: center;
+            padding-left: 20px;
+            font-family: Luckiest Guy;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+        }
+    }
+    &__item__img {
+        width: 125px;
+        height: 165px;
+        border-radius: 50px;
+        border: 3px solid #FFF;
+        background: linear-gradient(180deg, #DD8E39 0%, rgba(167, 86, 31, 0.25) );
+        z-index: 1;
+        position: absolute;
+        top: -35px;
+        left: -80px;
+        & img {
+            width: 106.884px;
+            height: 138.087px;
+        }
+
+    }
+    & .miner {
+        position: absolute;
+        left: -10px;
+    }
+
+    @media (max-width:625px) {
+        .whatiswhat{
+            background: linear-gradient(180deg, #CF7329 0%, #B2773A 100%);
+            padding-top: 75px;
+            padding-bottom: 120px;
+            .container{
+                position: relative;
+            }
+            &__title{
+                display: flex;
+                flex-direction: column;
+                color: #fff;
+                text-align: center;
+                font-family: Luckiest Guy;
+                font-size: 100px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                & span{
+                    color: #633725;
+                }
+            }
+            &-items{
+                margin-top: 100px;
+                display: flex;
+                padding-left: 100px;
+                gap: 100px;
+                position: relative;
+                &__col{
+                    &:nth-child(2){
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 114px;
+                        & img{
+                            height: 192px;
+                        }
+                    }
+                }
+            }
+            &__item{
+                max-width: 575px;
+                min-height: 79px;
+                border-radius: 20px;
+                margin-top: 70px;
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, #EDA446 100%);
+        
+                & p{
+                    color: #633725;
+                    font-family: Luckiest Guy;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-left: 50px;
+                    & span{
+                        color: #B46325;
+                        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        font-family: Luckiest Guy;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+            &__subitem{
+                margin-top: 13px;
+                margin-bottom: 12px;
+                & p{
+                    color: #754018;
+                    // text-align: center;
+                    padding-left: 20px;
+                    font-family: Luckiest Guy;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+        
+                }
+            }
+            &__item__img {
+                width: 105px;
+                height: 145px;
+                border-radius: 40px;
+                border: 3px solid #FFF;
+                background: linear-gradient(180deg, #DD8E39 0%, rgba(167, 86, 31, 0.25) );
+                z-index: 1;
+                position: absolute;
+                top: -35px;
+                left: -80px;
+                & img {
+                    width: 86.884px;
+                    height: 118.087px;
+                }
+        
+            }
+            & .miner {
+                position: absolute;
+                left: -10px;
+            }
+    }
+}
+}
+@media (max-width:530px) {
+    .whatiswhat{
+        background: linear-gradient(180deg, #CF7329 0%, #B2773A 100%);
+        padding-top: 75px;
+        padding-bottom: 120px;
+        .container{
+            position: relative;
+        }
+        &__title{
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            text-align: center;
+            font-family: Luckiest Guy;
+            font-size: 100px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            & span{
+                color: #633725;
+            }
+        }
+        &-items{
+            margin-top: 60px;
+            display: flex;
+            padding-left: 100px;
+            gap: 100px;
+            position: relative;
+            &__col{
+                &:nth-child(2){
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 114px;
+                    & img{
+                        height: 192px;
+                    }
+                }
+            }
+        }
+        &__item{
+            max-width: 575px;
+            min-height: 79px;
+            border-radius: 20px;
+            margin-top: 30px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, #EDA446 100%);
+    
+            & p{
+                color: #633725;
+                font-family: Luckiest Guy;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-left: 50px;
+                & span{
+                    color: #B46325;
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    font-family: Luckiest Guy;
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+        &__subitem{
+            margin-top: 13px;
+            margin-bottom: 12px;
+            & p{
+                color: #754018;
+                // text-align: center;
+                padding-left: 20px;
+                font-family: Luckiest Guy;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+    
+            }
+        }
+        &__item__img {
+            width: 105px;
+            height: 145px;
+            border-radius: 40px;
+            border: 3px solid #FFF;
+            background: linear-gradient(180deg, #DD8E39 0%, rgba(167, 86, 31, 0.25) );
+            z-index: 1;
+            position: absolute;
+            top: -35px;
+            left: -80px;
+            & img {
+                width: 86.884px;
+                height: 118.087px;
+            }
+    
+        }
+        & .miner {
+            position: absolute;
+            left: -10px;
+        }
+}
+}
+
+}

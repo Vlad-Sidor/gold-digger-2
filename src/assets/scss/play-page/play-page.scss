@@ -1,0 +1,292 @@
+.play-hero{
+    background-image: url('../../images/play-page/play-page-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 197px;
+    height: 1255px;
+    padding-bottom: 15px;
+    & .container{
+        height: 100%;
+        position: relative;
+    }
+    &__item{
+        background-image: url('../../images/play-page-bg-1.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 40px 70px;
+        display: flex;
+        margin: 0 auto;
+        display: flex;
+        width: 77%;
+        &__plantation{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            & p{
+                color: #F2F2F2;
+                font-family: Luckiest Guy;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 3px;
+            }
+            & span{
+                color: #F2F2F2;
+                font-family: Luckiest Guy;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 3px;
+            }
+        }
+        
+    }
+    &__items{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__maturation{
+        background-image: url('../../images/play-page/maturation-plaque.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 6px 57px 15px 192px;
+        height: 118px;
+        display: flex;
+        gap: 100px;
+        margin: 0 auto;
+        width: 83%;
+        &__text{
+            & p{
+                color: #F2F2F2;
+                font-family: Luckiest Guy;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 3px;
+            }
+            & span{
+                color: #F2F2F2;
+                font-family: Luckiest Guy;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 5px;
+
+            }
+        }
+    }
+    & .miner{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        & img{
+            position: absolute;
+            width: 600px;
+            height: 300px;
+            &:nth-child(1){
+                top: 50%;
+                left: -14px;
+            }
+            &:nth-child(2){
+                top: 45%;
+                left: 280px; 
+            }
+            &:nth-child(3){
+                top: 43%;
+                right: 591px;
+            }
+            &:nth-child(4){
+                top: 41%;
+                right: 301px;  
+            }
+            &:nth-child(5){
+                top: 44%;
+                right: 40px;
+            }
+        }
+    }
+}
+.play{
+    &-items{
+        display: flex;
+        
+        &__img{
+            width: 192px;
+            height: auto;
+            transform: translate(10px, 11%);
+        }
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-left: 13px;
+        }
+    }
+    &-item{
+        border-radius: 50px;
+        border: 2px solid rgba(255, 255, 255, 0.20);
+        background: linear-gradient(180deg, #FFF 0%, rgba(202, 139, 83, 0.00) 100%);
+        padding-left: 34px;
+        width: 287px;
+        height: 57px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    
+        &:nth-child(1){
+            & .play-item__img{
+                background-image: url('../../images/gold-mini-star.svg');
+                
+            }
+        }
+        &:nth-child(2){
+            & .play-item__img{
+                background-image: url('../../images/miner-mini.svg');
+            }
+        }
+        &:nth-child(3){
+            cursor: pointer;
+            & .play-item__img{
+                background-image: url('../../images/main-page/pickaxe-mini.svg');
+                background-size: 50%;
+            }
+        }
+        &:last-child{
+            & .play-item__img{
+                padding: 10px;
+            }
+        }
+        &__img{
+            width: 69px;
+            height: 71px;
+            border-radius: 71.179px;
+            border: 6px solid #FFF;
+            background: #E7DAD4;
+            position: absolute;
+            right: -42px;
+            top: 50%;
+            transform: translate(0,-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__text{
+            color: #F2F2F2;
+            font-family: Luckiest Guy;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 3px;
+        }
+    }
+    &-earned{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+        margin-left: 132px;
+        align-items: flex-end;
+        &__statistics{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        & p{
+            color: #F2F2F2;
+            font-family: Luckiest Guy;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-align: right;
+            letter-spacing: 3px;
+        }
+        & span{
+            color: #F2F2F2;
+            font-family: Luckiest Guy;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 6px;
+        }
+    }
+    &-progressbar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__item{
+            position: relative;
+            height: 15px;
+            border-radius: 50px;
+            border: 2px solid rgba(255, 255, 255, 0.20);
+            background: linear-gradient(180deg, #FEF216 0%, #FEC037 100%);
+            width: 100%;
+
+            & .star{
+                position: absolute;
+                &:nth-child(1){
+                    width: 19px;
+                    top: -46px;
+                    left: 100px;
+                    animation-delay: .5s;
+                }
+                &:nth-child(2){
+                    width: 19px;
+                    top: -29px;
+                    left: 356px;
+                    animation-delay: .3s;
+                }
+                &:nth-child(3){
+                    width: 29px;
+                    top: 22px;
+                    right: 400px;
+                    animation-delay: 1.2s;
+                }
+                &:nth-child(4){
+                    width: 18px;
+                    top: 18px;
+                    right: 361px;
+                    animation-delay: .2s;
+                }
+                &:nth-child(5){
+                    width: 30px;
+                    top: -27px;
+                    right: 143px;
+                    animation-delay: 1s;
+                }
+                &:nth-child(6){
+                    width: 18px;
+                    top: -37px;
+                    right: 115px;
+                    animation-delay: .7s;
+                }
+            }
+            & .gold{
+                position: absolute;
+                width: 112px;
+                top: 0%;
+                left: -35px;
+                transform: translate(0,-50%);
+            }
+        }
+    }
+}
